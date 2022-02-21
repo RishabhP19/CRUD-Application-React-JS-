@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.sidebar_row {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 192px;
+  padding:  10px;
+  margin-bottom: 15px;
+}
+.icon_img {
+ 
+  font-size: 22px !important;
+  width: 25px;
+  margin-left: 10px;
+}
+.sidebarRow_title {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: rgb(185, 184, 184);
+  font-family: "Alegreya Sans", sans-serif;
+}
+.sidebarRow_title:hover{
+    color: white;
+}
+.title{
+    margin-top: 55px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.sidebar_row:hover {
+  border-left: 2px solid white;
+    color: white!;
+  cursor: pointer;
+
+  width: 1000px;
+}
+
+@media only screen and (min-height: 1500px) {
+  
+}

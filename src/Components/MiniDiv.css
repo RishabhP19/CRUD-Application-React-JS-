@@ -1,0 +1,68 @@
+.MiniDiv {
+  background-color: #131432;
+  color: rgb(167, 167, 167);
+  width: 9vh;
+  height: 100vh;
+  margin-left: -12px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: fixed;
+}
+.mini_div_wrap {
+  margin-top: 120px;
+  margin-left: 8px;
+}
+.icon_img1 {
+  font-size: 22px !important;
+  width: 25px;
+  margin-left: 10px;
+}
+.sidebar_row1:hover {
+  color: black!;
+  cursor: pointer;
+    background-color:#3a3d69;
+    transition:  .5s ease;
+    width: 54px;
+}
+.sidebar_row1 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 54px;
+  margin-left: -6px;
+}
+.sidebar_row1:hover ::after {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+    background: red;
+    margin-top: -70px;
+    border-radius: 50%;
+    
+    pointer-events: none;
+  }
+  .sidebar_row1:hover ::before {
+    content: "";
+    position: absolute;
+    right: 0;
+  
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    margin-top: 53px;
+    border-radius: 50%;
+    box-shadow: 35px -25px 0px 10px #2d313d;
+    pointer-events: none;
+  }
+  .sidebar_open{
+    font-size: 45px;
+    color: white;
+    left: 3px;
+    position: absolute;
+    top:20px
+  }
+  .sidebar_open:hover{
+    cursor: pointer;
+    color: lightgrey;
+    width: 100px;
+  }

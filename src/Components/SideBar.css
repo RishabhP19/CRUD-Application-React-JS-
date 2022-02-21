@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.Home_Wrap {
+  display: flex;
+}
+.Home_cont{
+  border-bottom-left-radius: 30px ;
+  border-top-left-radius: 30px;
+  width: 188vh;
+  height: 100vh;
+  background-color: #ffffff;
+  margin-left: 165px;
+  position: fixed;
+}
+.Home_cont1{
+  border-bottom-left-radius: 30px ;
+  border-top-left-radius: 30px;
+  width:300vh;
+  height: 100vh;
+  background-color: #ffffff;
+  margin-left: 165px;
+  position: fixed;
+}
+.HomePage {
+  /* background-color: #ffffff; */
+  right: 0px;
+  position: absolute;
+  width: 188vh;
+  height: 100vh;
+  
+}
+.HomePage1 {
+  /* background-color: #ffffff; */
+  right: 0px;
+  position: absolute;
+  width:230vh;
+  height: 100vh;
+  left:-10px;
+  
+}
+.Sidebar {
+  position: fixed;
+  background-color: #131432;
+  color: white;
+  width: 35vh;
+  height: 100vh;
+  margin-left: -12px;
+}
+.SearchInput {
+  flex: 1;
+  border: none;
+  height: 40px !important;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 25px !important;
+}
+.header_input {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  margin-left: 350px;
+}
+.header_searchBtn {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+form {
+  color: #555;
+  background-color: #eef3fd;
+  display: flex;
+  padding: 2px;
+
+  border-radius: 10px;
+  width: 580px;
+  margin-left: 250px;
+}
+
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  width: 580px;
+  border: 1px solid transparent;
+  border-radius: 0px 25px 25px 0px;
+}
+
+input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+.buttonSubmit {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  background-color: rgb(209, 222, 246) !important;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.add_ {
+  margin-left: 780px;
+  display: flex;
+}
+.add_icon {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 15px;
+  color: rgb(110, 109, 109);
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+.search_palce {
+  margin-left: -220px ;
+  margin-top: 50px;
+}
+.search_palce1 {
+ 
+  margin-left:-92px;
+  margin-top: 50px;
+}
+.card {
+  background-color: #ebeefd;
+  margin-top: 25px;
+  border-radius: 20px;
+  height: 26vh;
+  margin-bottom: 30px;
+  display: flex;
+}
+.card_img {
+  width: 200px;
+  margin-left: 910px;
+  margin-top: -140px;
+}
+.card_text {
+  font-family: "Playfair Display", serif;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.card_text2 {
+  margin-left: 50px;
+  margin-top: 2px;
+  width: 700px;
+}
+.sidebar_logo {
+  display: flex;
+  margin-left: 20px;
+  /* margin-top: 0; */
+  align-items: center;
+}
+.icon_logo {
+  height: 30px !important;
+  margin-top: 50px;
+}
+
+.parent_header {
+  position: sticky;
+  top: 0;
+  color: white;
+}
+.sidebar {
+  width: 16%;
+  position: fixed;
+  top: 150px;
+  z-index: 50;
+  height: 92vh;
+  overflow-y: scroll;
+  overflow: hidden;
+  left: 0;
+  transition: 0.5s ease;
+}
+.sidebar.active {
+  left: -16%;
+}
+.mini_sidebar {
+  width: 5%;
+  position: fixed;
+  z-index: 50;
+  height: 92vh;
+  background-color: #3d3e47;
+  left: -100px;
+  transition: 0.5s ease;
+  top: 71px;
+}
+@media only screen and (max-width: 600px) {
+  
+}
+.mini_sidebar.active {
+  left: 0;
+}
+.miniDiv {
+  padding: 0px 10px;
+  color: #3d3e47;
+}
+.miniDiv:hover {
+  background-color: #2d313d;
+  cursor: pointer;
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1300px) {
+ 
+}
+@media only screen and (min-height: 1500px) {
+  
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+td {
+  height: 70px;
+  font-weight: 500;
+  background-color: #6972ff !important;
+}
+tr {
+  text-align: center;
+}
+.sidebar_Row_Wrap{
+  margin-top: 30px;
+}
